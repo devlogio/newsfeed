@@ -39,7 +39,7 @@ class NewsCard extends StatelessWidget {
                       const Text('Business'),
                       Expanded(
                         child: Text(
-                          truncateWithEllipsis(67, newsArticle.title),
+                          truncateWithEllipsis(63, newsArticle.title),
                           style: const TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
@@ -49,7 +49,7 @@ class NewsCard extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text(truncateWithEllipsis(15, newsArticle.author)),
+                          Text(truncateWithEllipsis(12, newsArticle.author)),
                           Text(newsArticle.publishedDate),
                         ],
                       )

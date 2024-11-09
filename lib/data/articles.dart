@@ -47,13 +47,6 @@ final Map<String, List<NewsArticle>> newsArticles = {
       "https://www.nytimes.com/2024/11/09/world/europe/amsterdam-israel-soccer-attacks.html",
     ),
     NewsArticle(
-      "‘Imminent’ famine likely in northern Gaza, experts warn in alert",
-      "Victoria Bisset",
-      "Nov. 9, 2024",
-      "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JXOMHEZSTCHPIFDBXQDGIHTCWI_size-normalized.jpg&w=1200",
-      "https://www.washingtonpost.com/world/2024/11/09/israel-iran-war-news-hamas-gaza-palestine/",
-    ),
-    NewsArticle(
       "Global boiling, mass flooding and Trump: 10 big talking points for Cop29",
       "Robin McKie",
       "Nov. 9, 2024",
@@ -73,6 +66,13 @@ final Map<String, List<NewsArticle>> newsArticles = {
       "Nov. 9, 2024",
       "https://media.cnn.com/api/v1/images/stellar/prod/2024-11-07t090137z-777163166-rc2tzaajrqr4-rtrmadp-3-israel-palestinians-gaza.JPG?c=16x9&q=h_653,w_1160,c_fill/f_webp",
       "https://www.cnn.com/2024/11/09/middleeast/un-warnings-gaza-humanitarian-conditions-intl/index.html",
+    ),
+    NewsArticle(
+      "'Life turned to dust': A family's grief after Spain floods",
+      "Nick Beake",
+      "Nov. 9, 2024",
+      "https://ichef.bbci.co.uk/news/1536/cpsprodpb/03ce/live/33ed6760-9e55-11ef-8624-97cfe8d39853.jpg.webp",
+      "https://www.bbc.com/news/articles/cyv7n95472go",
     ),
   ],
   "Business": [
@@ -202,13 +202,6 @@ final Map<String, List<NewsArticle>> newsArticles = {
       "https://bleacherreport.com/articles/10142769-zion-williamson-out-indefinitely-for-pelicans-with-hamstring-injury",
     ),
     NewsArticle(
-      "With Roki Sasaki’s posting announcement, MLB undergoes a shakeup",
-      "Chelsea Janes",
-      "Nov. 9, 2024",
-      "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RGUXWDYTN4H6XKZHOFLXDJYPDM_size-normalized.jpg&w=1200",
-      "https://www.washingtonpost.com/sports/2024/11/09/roki-sasaki-mlb-posting/",
-    ),
-    NewsArticle(
       "UFC Fight Night 247 predictions: Plenty of unanimous picks in Las Vegas",
       "Matt Erickson",
       "Nov. 9, 2024",
@@ -221,6 +214,13 @@ final Map<String, List<NewsArticle>> newsArticles = {
       "Nov. 9, 2024",
       "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2183892888-copy.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp",
       "https://www.cnn.com/2024/11/09/sport/coco-gauff-wta-finals-zheng-qinwen-spt-intl/index.html",
+    ),
+    NewsArticle(
+      "Warriors see Cavs using a familiar blueprint as they rewrite record books amid 10-0 start",
+      "Nate Ulrich",
+      "Nov. 9, 2024",
+      "https://www.beaconjournal.com/gcdn/authoring/authoring-images/2024/11/09/NABJ/76143720007-2183778626.jpeg?width=1320&height=880&fit=crop&format=pjpg&auto=webp",
+      "https://www.beaconjournal.com/story/sports/pro/cavs/2024/11/09/cleveland-cavaliers-10-0-start-kenny-atkinson-golden-state-warriors-stephen-curry-draymond-green/76135898007/",
     ),
   ],
   "Science": [

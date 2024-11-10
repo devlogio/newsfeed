@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "377895288913",
+    "project_id": "newsfeed-3735c",
+    "storage_bucket": "newsfeed-3735c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377895288913:android:23fc817dd59078d0f1b870",
+        "android_client_info": {
+          "package_name": "io.devlog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1ebVZQVmxzO6AE9yX-13hf9MxT9WN4Bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

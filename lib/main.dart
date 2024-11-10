@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:newsfeed/data/articles.dart';
 import 'package:newsfeed/model/news_article.dart';
@@ -6,7 +7,19 @@ import 'package:newsfeed/widget/news_card.dart';
 import 'package:newsfeed/widget/news_topic.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-void main() {
+import 'firebase_options.dart';
+
+Map<String, List<NewsArticle>> newsArticles = {};
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
+  newsArticles = await getNewsArticles();
+
   runApp(const MyApp());
 }
 

@@ -36,7 +36,7 @@ class NewsCard extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Text('Business'),
+                      Text(newsArticle.topic),
                       Expanded(
                         child: Text(
                           truncateWithEllipsis(63, newsArticle.title),
